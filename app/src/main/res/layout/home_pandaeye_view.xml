@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!--熊猫观察-->
+    <TextView
+        android:id="@+id/home_pannaeye_title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="14dp"
+        android:text="精彩观察"
+        android:textColor="#3F51B5"
+        android:textSize="20sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#11706767" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/home_pannaeye_image"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_alignParentLeft="true" />
+        <!--时评-->
+        <TextView
+            android:id="@+id/home_pannaeye_text1"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/home_pannaeye_image"
+            android:background="@drawable/setbar_bg"
+            android:gravity="center"
+            android:text="时评"
+            android:textColor="#FF4081" />
+
+        <TextView
+            android:id="@+id/home_pannaeye_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:text="55555555555"
+            android:layout_toRightOf="@+id/home_pannaeye_text1"
+            android:textColor="#000000" />
+
+        <!--分割线-->
+        <View
+            android:id="@+id/view_homepage"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/home_pannaeye_text1"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/home_pannaeye_image"
+            android:background="#11000000" />
+        <!--热点-->
+        <TextView
+            android:id="@+id/home_pannaeye_text3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_homepage"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/home_pannaeye_image"
+            android:background="@drawable/setbar_bg"
+            android:gravity="center"
+            android:text="热点"
+            android:textColor="#FF4081" />
+
+        <TextView
+            android:id="@+id/home_pannaeye_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_homepage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:text="5555555"
+            android:layout_toRightOf="@+id/home_pannaeye_text3"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <!--分割线-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/button_homepage_comment"
+        android:layout_toRightOf="@+id/image_homepage_observe"
+        android:background="#11000000" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/home_pannaeye_reycycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#11000000" />
+</LinearLayout>

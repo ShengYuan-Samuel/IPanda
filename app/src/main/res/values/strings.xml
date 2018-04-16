@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IPanda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tip_drag">长按可以拖拽排序,点击删除</string>
+    <string name="my_cahnnel">切换频道</string>
+    <string name="other_channel">点击添加更多频道</string>
+    <string name="edit">编辑</string>
+    <string name="finish">完成</string>
+</resources>

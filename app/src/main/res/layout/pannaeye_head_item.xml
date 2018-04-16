@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#ffffff"/>
+    <ImageView
+        android:id="@+id/pannaeye_head_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/pannaeye_head_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-25dp"
+        android:text="111111"
+        android:textColor="#66535353"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#ffffff"/>-->
+</LinearLayout>
